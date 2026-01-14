@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenun Pringgasela </title>
+    <meta name="description" content="Menjelajahi keindahan dan sejarah Tenun Pringgasela, warisan luhur budaya Sasak.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="logo">Tenun Pringgasela</div>
+            <ul class="nav-links">
+                <li><a href="#history">Sejarah</a></li>
+                <li><a href="#process">Proses</a></li>
+                <li><a href="#catalog">Katalog</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li>
+                    <a href="#" id="cart-btn" class="cart-icon-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-shopping-cart">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span id="cart-count" class="cart-badge">0</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Keanggunan Tenun <br> <span class="highlight">Pringgasela</span></h1>
+                <p>Warisan leluhur yang ditenun dengan cinta dan doa, menghadirkan keindahan budaya Sasak dalam setiap
+                    helai benang.</p>
+                <a href="#catalog" class="btn-cta">Lihat Koleksi</a>
+            </div>
+            <div class="hero-slider">
+                <div class="overlay"></div>
+                <div class="slide active" style="background-image: url('images/slider_process.png');"></div>
+                <div class="slide" style="background-image: url('images/slider_tenun.jpg');"></div>
+                <div class="slide" style="background-image: url('images/slider_carnaval.jpg');"></div>
+                <div class="slide" style="background-image: url('images/slider_proses.jpg');"></div>
+            </div>
+        </section>
+
+        <section id="history" class="section-padding">
+            <div class="container expanded">
+                <div class="section-header">
+                    <span class="subtitle">Warisan Kami</span>
+                    <h2>Sejarah Tenun Pringgasela</h2>
+                </div>
+                <div class="grid-2-col">
+                    <div class="text-content">
+                        <p>Desa Pringgasela di Lombok Timur bukan hanya sekadar desa, melainkan penjaga denyut nadi
+                            tradisi tenun Sasak. Sejarah tenun di sini telah bermula sejak berabad-abad lampau,
+                            diwariskan secara turun-temurun dari ibu ke anak perempuannya.</p>
+                        <p>Konon, keterampilan menenun dibawa oleh *Lebai Nursini*, tokoh penyebar agama Islam yang
+                            mendirikan desa ini. Menenun bagi wanita Pringgasela bukan sekadar mata pencaharian, tetapi
+                            juga bentuk *meditasi* dan pengabdian, di mana setiap motif menyimpan filosofi kehidupan,
+                            alam, dan hubungan manusia dengan Sang Pencipta.</p>
+                    </div>
+                    <div class="image-box">
+                        <img src="images/lawas.jpg" alt="Foto Lawaas" loading="lazy">
+                        <div class="placeholder-img" style="background: linear-gradient(45deg, #8B5A2B, #D2B48C);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="section-padding dark-bg">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="subtitle">Mahakarya Tangan</span>
+                    <h2>Alat & Proses Pembuatan</h2>
+                </div>
+
+                <div class="process-tabs">
+                    <button class="tab-btn active" data-tab="spinning">Pemintalan</button>
+                    <button class="tab-btn" data-tab="weaving">Penenunan</button>
+                    <button class="tab-btn" data-tab="dyeing">Pewarnaan Alam</button>
+                </div>
+
+                <div class="tab-content active" id="spinning">
+                    <div class="grid-2-col">
+                        <div class="info-card">
+                            <h3>Alat Pemintal (Gantip)</h3>
+                            <p>Sebelum menjadi kain yang indah, kapas harus diproses menjadi benang. Alat tradisional
+                                yang digunakan disebut <strong>Gantip</strong>.</p>
+                            <ul class="feature-list">
+                                <li><strong>Nganih:</strong> Proses memisahkan biji kapas.</li>
+                                <li><strong>Gantip:</strong> Memintal kapas menjadi benang halus.</li>
+                            </ul>
+                        </div>
+                        <div class="visual-card">
+                            <img src="images/gantip.jpeg" alt="Alat Pemintal Gantip" loading="lazy">
+                            <span class="caption"> Gantip</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="weaving">
+                    <div class="grid-2-col">
+                        <div class="info-card">
+                            <h3>Alat Tenun Gedogan</h3>
+                            <p>Alat tenun tradisional Pringgasela adalah jenis <strong>Gedogan</strong>, di mana penenun
+                                duduk di lantai dengan lurus kaki, memangku alat tenun.</p>
+                            <ul class="feature-list">
+                                <li><strong>Cacah:</strong> Untuk mengatur motif.</li>
+                                <li><strong>Sur:</strong> Sisir untuk merapatkan benang.</li>
+                                <li><strong>Berera:</strong> Kayu penahan punggung penenun.</li>
+                            </ul>
+                        </div>
+                        <div class="visual-card">
+                            <img src="images/gedogan.jpeg" alt="Alat Tenun Gedogan" loading="lazy">
+                            <span class="caption">Alat Tenun Gedogan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="dyeing">
+                    <div class="grid-2-col">
+                        <div class="info-card">
+                            <h3>Pewarna Alami</h3>
+                            <p>Keunikan Tenun Pringgasela terletak pada warna-warna alamnya yang teduh dan tahan lama.
+                            </p>
+                            <div class="materials-grid">
+                                <div class="material-item">
+                                    <span class="color-circle" style="background-color: #4A3728;"></span>
+                                    <span>Kulit Kayu Mahoni (Coklat)</span>
+                                </div>
+                                <div class="material-item">
+                                    <span class="color-circle" style="background-color: #B8860B;"></span>
+                                    <span>Kunyit (Kuning)</span>
+                                </div>
+                                <div class="material-item">
+                                    <span class="color-circle" style="background-color: #2F4F4F;"></span>
+                                    <span>Daun Tarum/Indigo (Biru/Hitam)</span>
+                                </div>
+                                <div class="material-item">
+                                    <span class="color-circle" style="background-color: #800000;"></span>
+                                    <span>Akar Mengkudu (Merah)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visual-card">
+                            <img src="images/pewarnaan.jpg" alt="pewarnaan" loading="lazy">
+                            <div class="placeholder-img" style="background-color: #6B8E23;"></div>
+                            <span class="caption">Proses Pewarnaan</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="catalog" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">Koleksi Eksklusif</span>
+                    <h2>Katalog Kain</h2>
+                </div>
+
+                <div class="catalog-grid">
+                    <!-- Product 1 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/sarinadi_alam.png" alt="Kain Tenun Sarinadi Alam" loading="lazy">
+                            <span class="tag">Terlaris</span>
+                        </div>
+                        <div class="product-details">
+                            <h3>Sarinadi Alam</h3>
+                            <p class="desc">Motif garis klasik dengan pewarna akar mengkudu.</p>
+                            <div class="price">Rp 750.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="1" data-name="Sarinadi Alam"
+                                    data-price="750000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="1" data-name="Sarinadi Alam"
+                                    data-price="750000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/ragi_genep.png" alt="Kain Tenun Ragi Genep" loading="lazy">
+                        </div>
+                        <div class="product-details">
+                            <h3>Ragi Genep</h3>
+                            <p class="desc">Simbol kelengkapan hidup, warna indigo natural.</p>
+                            <div class="price">Rp 900.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="2" data-name="Ragi Genep"
+                                    data-price="900000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="2" data-name="Ragi Genep"
+                                    data-price="900000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/sundawa.png" alt="Kain Tenun Sundawa" loading="lazy">
+                        </div>
+                        <div class="product-details">
+                            <h3>Sundawa</h3>
+                            <p class="desc">Motif sungai yang mengalir, warna kunyit cerah.</p>
+                            <div class="price">Rp 650.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="3" data-name="Sundawa"
+                                    data-price="650000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="3" data-name="Sundawa"
+                                    data-price="650000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Product 4 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/kembang_komak.png" alt="Kain Tenun Kembang Komak" loading="lazy">
+                        </div>
+                        <div class="product-details">
+                            <h3>Kembang Komak</h3>
+                            <p class="desc">Inspirasi flora lokal, kombinasi merah dan hitam.</p>
+                            <div class="price">Rp 800.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="4" data-name="Kembang Komak"
+                                    data-price="800000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="4" data-name="Kembang Komak"
+                                    data-price="800000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Men's Shirts -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/kemeja2.jpg" alt="Kemeja klasik" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #2c3e50, #bdc3c7);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Kemeja Klasik</h3>
+                            <p class="desc">Tenun Pringgasela motif klasik untuk pria.</p>
+                            <div class="price">Rp 450.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="5" data-name="Kemeja Klasik"
+                                    data-price="450000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="5" data-name="Kemeja Klasik"
+                                    data-price="450000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/kemeja1.jpg" alt="Kemeja klasik" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #000000, #434343);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Kemeja Tenun Kombinasi</h3>
+                            <p class="desc">Kemeja formal dengan motif kombinasi.</p>
+                            <div class="price">Rp 650.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="6" data-name="Kemeja Tenun Kombinasi"
+                                    data-price="650000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="6" data-name="Kemeja Tenun Kombinasi"
+                                    data-price="650000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Shawls -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/selendang_ijo.jpeg" alt="Selendang hijau" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #e65c00, #F9D423);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Selendang Hijau </h3>
+                            <p class="desc">Selendang cantik dengan aksen songket alam.</p>
+                            <div class="price">Rp 230.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="7" data-name="Selendang Hijau"
+                                    data-price="230000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="7" data-name="Selendang hijau"
+                                    data-price="230000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/selendang_khas.jpeg" alt="Selendang Merah " loading="lazy">
+                            <span class="tag">Khas Pringgasela</span>
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #cc2b5e, #753a88);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Selendang Merah</h3>
+                            <p class="desc">Warna gradasi senja yang memukau.</p>
+                            <div class="price">Rp 1.680.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="8" data-name="Selendang Merah"
+                                    data-price="1680000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="8" data-name="Selendang Merah"
+                                    data-price="1680000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/selendang_emas.jpeg" alt="Selendang hijau" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #FFD700, #FDB931);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Selendang Emas</h3>
+                            <p class="desc">Sentuhan benang emas untuk kemewahan.</p>
+                            <div class="price">Rp 250.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="9" data-name="Selendang Emas"
+                                    data-price="250000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="9" data-name="Selendang Emas"
+                                    data-price="250000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Women's Shirts -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/ratu_langit.jpeg" alt="Kostum Ratu Langit" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #ff9a9e, #fecfef);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>kostum Ratu Langit</h3>
+                            <p class="desc">Harmoni tenun dengan nuasnsa penguasa langit yang elegant.</p>
+                            <div class="price">Rp 4.900.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="10" data-name="Kostum Ratu Langit"
+                                    data-price="4900000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="10" data-name="Kostum Ratu Langit"
+                                    data-price="4900000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/raja_bawak_gunung.jpg" alt="Kostum Dau Sasak" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #a18cd1, #fbc2eb);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Kostum Datu Sasak</h3>
+                            <p class="desc">Kostum yang memancarkan kharisma pemimpin yang bijaksana.</p>
+                            <div class="price">Rp 6.500.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="11" data-name="Kostum Datu Sasak"
+                                    data-price="6500000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="11" data-name="Kostum Datu Sasak"
+                                    data-price="6500000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/bidadari_senja.jpeg" alt="Kostum Bidadari Senja" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #84fab0, #8fd3f4);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Kostum Bidadari Senja</h3>
+                            <p class="desc">Kilau senja yang terpancar dari tenun yang istimewa.</p>
+                            <div class="price">Rp 4.600.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="12" data-name="Kostum Bidadari Senja"
+                                    data-price="4600000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="12" data-name="Kostum Bidadari Senja"
+                                    data-price="4600000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Carnival Costumes -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/tembolak.jpeg" alt="costum tembolak" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #DA22FF, #9733EE);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Kostum Tembolak</h3>
+                            <p class="desc">Masterpiece untuk karnaval, tema Tembolak tradisional.</p>
+                            <div class="price">Rp 3.800.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="13" data-name="Kostum Tembolak"
+                                    data-price="3800000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="13" data-name="Kostum Tembolak"
+                                    data-price="3800000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/pangeran_sasak.jpeg" alt="Kostum Pangeran Sasak" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #11998e, #38ef7d);">
+                            </div>
+                            <span class="tag">Eksklusif</span>
+                        </div>
+                        <div class="product-details">
+                            <h3>Kostum Pangeran Sasak</h3>
+                            <p class="desc">Megah dan berani, inspirasi melambangkan perjuangan pemuda.</p>
+                            <div class="price">Rp 5.000.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="14" data-name="Kostum Pangeran Sasak"
+                                    data-price="5000000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="14" data-name="Kostum Pangeran Sasak"
+                                    data-price="5000000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/putri_sasak.jpeg" alt="kostum Putri Sasak" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #ED213A, #93291E);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Kostum Putri Sasak</h3>
+                            <p class="desc">Perpaduan tenun tradisional dan fashion yang elegan.</p>
+                            <div class="price">Rp 2.800.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="15" data-name="Gaun Kontemporer"
+                                    data-price="2800000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="15" data-name="kostum Putri Sasak"
+                                    data-price="2800000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Accessories -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/totebag.jpeg" alt="tas Tote Tenun" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #F2994A, #F2C94C);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Tas Tote Tenun</h3>
+                            <p class="desc">Tas kuat dan stylish untuk sehari-hari.</p>
+                            <div class="price">Rp 180.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="16" data-name="Tas Tote Tenun"
+                                    data-price="180000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="16" data-name="Tas Tote Tenun"
+                                    data-price="180000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/dompet_tenun.jpg" alt="Dompet Etnik" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #4568DC, #B06AB3);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Dompet Etnik</h3>
+                            <p class="desc">Dompet kecil serbaguna.</p>
+                            <div class="price">Rp 95.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="17" data-name="Dompet Etnik"
+                                    data-price="95000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="17" data-name="Dompet Etnik"
+                                    data-price="95000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="images/ikat_kepala.jpeg" alt="Ikat Kepala" loading="lazy">
+                            <div
+                                style="height: 250px; width: 100%; background: linear-gradient(135deg, #3a7bd5, #3a6073);">
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <h3>Ikat Kepala </h3>
+                            <p class="desc">Aksesoris kepala tradisional Sasak.</p>
+                            <div class="price">Rp 165.000</div>
+                            <div class="product-actions">
+                                <button class="btn-outline add-to-cart" data-id="18" data-name="Ikat Kepala"
+                                    data-price="165000">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                                    </svg>
+                                    +Keranjang
+                                </button>
+                                <button class="btn-primary buy-now" data-id="18" data-name="Ikat Kepala"
+                                    data-price="165000">Pesan Sekarang</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Keranjang Belanja</h2>
+                <span class="close-cart">&times;</span>
+            </div>
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items will be rendered here -->
+                <p class="empty-msg">Keranjang Anda masih kosong.</p>
+            </div>
+
+            <div id="checkout-section" class="checkout-section" style="display: none;">
+                <h3>Informasi Pengiriman & Pembayaran</h3>
+                <form id="checkout-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" required placeholder="Masukkan nama lengkap">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nomor WhatsApp/HP</label>
+                        <input type="tel" id="phone" required placeholder="Contoh: 08123456789">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Alamat Lengkap</label>
+                        <textarea id="address" required placeholder="Jalan, Desa, Kecamatan, Kabupaten..."
+                            rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="shipping">Pengiriman</label>
+                        <select id="shipping" required>
+                            <option value="">Pilih Wilayah</option>
+                            <option value="local">Dalam Daerah (Lombok Timur)</option>
+                            <option value="interlocal">Luar Daerah</option>
+                        </select>
+                    </div>
+
+                    <div id="shipping-service-container" class="form-group" style="display: none;">
+                        <label for="shipping-service">Layanan Pengiriman</label>
+                        <select id="shipping-service">
+                            <option value="regular">Reguler (JNE/J&T) - Rp 25.000</option>
+                            <option value="fast">Cepat (SiCepat/Express) - Rp 50.000</option>
+                            <option value="cargo">Kargo (Untuk jumlah banyak) - Rp 100.000</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="payment">Metode Pembayaran</label>
+                        <select id="payment" required>
+                            <option value="">Pilih Pembayaran</option>
+                            <option value="transfer">Transfer Bank (BCA/Mandiri)</option>
+                            <option value="ewallet">E-Wallet (Dana/OVO/Gopay)</option>
+                            <option value="cod">COD (Bayar di Tempat)</option>
+                        </select>
+                    </div>
+                    <div class="cart-total">
+                        <h4>Total: <span id="cart-total-price">Rp 0</span></h4>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Pesan Sekarang</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Tenun Pringgasela</h3>
+                <p>Melestarikan budaya, memberdayakan masyarakat.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Sosial Media Kami</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-facebook">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-instagram">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-youtube">
+                            <path
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                            </path>
+                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                        </svg>
+                    </a>
+                    <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-twitter">
+                            <path
+                                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4>Hubungi Kami</h4>
+                <p>Jl. Raya Pringgasela, Lombok Timur, NTB</p>
+                <p>Email: tenunpringgasela@gmail.com</p>
+                <p>WA: +62 823 5948 6948</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tenun Pringgasela. Anwar.</p>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
